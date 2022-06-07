@@ -4,8 +4,9 @@
         <h1>Welcome to My Homepage</h1>
         <p>You can read more about me or checkout my blog</p>
         <p>
-            <%#= link_to "Read More", about_path %>
-            <%= link_to "About Me", about_path %>
+            <%= link_to "About Me", about_path, class: "btn btn-secondary" %>
+            <%= link_to "Blog", posts_path, class: "btn btn-primary" %>
+        </p>
         </div>
     </div>   
 </div>
