@@ -1,3 +1,12 @@
-<h1>Pages#about</h1>
-<p>Find me in app/views/pages/about.html.erb</p>
-<%= link_to "Home", root_path %>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+        <h1>About Me</h1>
+        <p>You can read more about me or checkout my blog</p>
+        <p>
+            <%= link_to "Read More", about_path %>
+            <%= link_to "About Me", about_path %>
+            <%= link_to "Home", root_path %>
+        </div>
+    </div>
+</div>
